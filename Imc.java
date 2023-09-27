@@ -20,7 +20,7 @@ public class Imc {
      */
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
-       Double Peso,Altura,imc; 
+       Double peso,altura,imc; 
        String nome,classi;
        int idade;
                
@@ -28,7 +28,7 @@ public class Imc {
        
        
        for(int i=1;i<=3;i++){
-        System.out.println("Digite Nome:");
+        System.out.println("Digite nome:");
         nome = sc.next();
         
        System.out.println("Digite idade:");
@@ -66,14 +66,17 @@ public class Imc {
 
            else {
           classi = "Obesidade classe 3";
+            }
                
                System.out.println("Nome = "+nome+"Idade = "+idade);
-                System.out.println("peso = "+peso+ "Altura ="+altura);
-                 System.out.println("Seu IMC é = "+imc);
-                  System.out.println("sua Classificação foi ="+classi);
+               System.out.println("peso = "+peso+ "Altura ="+altura);
+               System.out.println("Seu IMC é = "+imc);
+               System.out.println("sua Classificação foi ="+classi);
+                  
+            
            
             
-            }
+            
        
 
 
